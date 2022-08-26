@@ -1,3 +1,63 @@
+.category {
+  border: 2px solid blue;
+}
+.listitems {
+  border: 2px solid green;
+}
+h1 {
+  display: flex;
+  position: fixed;
+  margin-top: auto;
+}
+li {
+  padding-top: 70px;
+  margin-bottom: -70px;
+  text-align: left;
+  font-weight: 900px;
+  font: bold;
+}
+li:hover {
+  font-size: 120%;
+}
+span:hover {
+  border: 1px solid black;
+}
+.listtable {
+  margin-top: -190px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  height: 100px;
+  width: 590px;
+  text-align: left;
+}
+caption {
+  text-align: left;
+  margin-bottom: 20px;
+}
+th {
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+td {
+  border: 1px solid grey;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: rgba(128, 0, 128, 0.075);
+}
+.listheading {
+  margin-top: auto;
+  font: bold;
+}
+.columnlist {
+  width: 25px;
+}
+
 .App {
   text-align: center;
 }
